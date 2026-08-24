@@ -2,7 +2,7 @@
 
 <h1 align = "center">Photon Shaders</h1>
 
-<p align = "center">A gameplay-focused shader pack for Minecraft</p>
+<p align = "center">A gameplay-focused shader pack for Minecraft\nbut now with sky color tweaking\nsky ground is broken idk how fix</p>
 
 ![Screenshot](docs/images/rainbow.png)
 
