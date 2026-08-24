@@ -113,9 +113,9 @@ vec3 atmosphere_post_processing(vec3 atmosphere) {
         atmosphere,
         (1 + ATMOSPHERE_SATURATION_BOOST_INTENSITY * atmosphere_saturation_boost_amount)
             * (1 - rainStrength * ATMOSPHERE_RAIN_DESATURATION_INTENSITY)
-    );
+    ) * vec3(SKY_POST_R, SKY_POST_G, SKY_POST_B);
 
-    return atmosphere;
+    return atmosphere * SKY_POST_I;
 }
 
 /*
