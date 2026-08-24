@@ -61,7 +61,7 @@ vec3 get_moon_tint() {
 
 vec3 get_light_color() {
     vec3 light_color
-        = sunlight_color * atmosphere_transmittance(light_dir.y, planet_radius);
+        = sunlight_color * (atmosphere_transmittance(light_dir.y, planet_radius) / vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B) * NON_SKY_XTRA_TINT);
     light_color = atmosphere_post_processing(light_color);
     light_color *= mix(
         get_sun_exposure() * get_sun_tint(),
