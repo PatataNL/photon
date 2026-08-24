@@ -116,7 +116,7 @@ vec4 draw_crepuscular_rays(
     // Lighting
 
     vec3 light_color
-        = sunlight_color * atmosphere_transmittance(light_dir.y, planet_radius);
+        = sunlight_color * (atmosphere_transmittance(light_dir.y, planet_radius) / mix(vec3(1.0,1.0,1.0), vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B) * NON_SKY_XTRA_TINT, ANTI_SKY_TINT_I)) * CLOUD_BRIGHT_MULT;
     light_color = atmosphere_post_processing(light_color);
     light_color *= sunAngle > 0.5 ? moon_color : sun_color;
 
