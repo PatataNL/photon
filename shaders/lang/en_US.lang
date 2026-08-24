@@ -716,13 +716,13 @@ value.AUTO_EXPOSURE.AUTO_EXPOSURE_OFF       = Off
 
 option.CLOUD_BRIGHT_MULT               = Cloud Brightness
 option.ANTI_SKY_TINT_I                 = Cloud Sky-tint-negation
-option.NON_SKY_TINT_R                  = §c▍ Cloud Tint R
-option.NON_SKY_TINT_G                  = §a▍ Cloud Tint G
-option.NON_SKY_TINT_B                  = §9▍ Cloud Tint B
-option.SKY_POST_R                      = §c▍ Sky Tint R
-option.SKY_POST_G                      = §a▍ Sky Tint G
-option.SKY_POST_B                      = §9▍ Sky Tint B
-option.SKY_POST_I                      = §f▍ Sky Tint Intensity
+option.NON_SKY_TINT_R                  = §c▍ §fCloud Tint R
+option.NON_SKY_TINT_G                  = §a▍ §fCloud Tint G
+option.NON_SKY_TINT_B                  = §9▍ §fCloud Tint B
+option.SKY_POST_R                      = §c▍ §fSky Tint R
+option.SKY_POST_G                      = §a▍ §fSky Tint G
+option.SKY_POST_B                      = §9▍ §fSky Tint B
+option.SKY_POST_I                      = ▍ Sky Tint Intensity
 
 # Misc settings
 
