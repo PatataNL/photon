@@ -14,6 +14,7 @@ screen.fog                             = Fog
 screen.materials                       = Materials
 screen.water                           = Water
 screen.post                            = Post-Processing
+screen.sky_color_edit                  = Sky Color Tweaks
 screen.misc                            = Misc
 screen.mods                            = Mod Options
 
@@ -710,6 +711,18 @@ option.HISTOGRAM_TARGET                      = Histogram Target CDF Value
 value.AUTO_EXPOSURE.AUTO_EXPOSURE_SIMPLE    = Simple
 value.AUTO_EXPOSURE.AUTO_EXPOSURE_HISTOGRAM = Histogram
 value.AUTO_EXPOSURE.AUTO_EXPOSURE_OFF       = Off
+
+# Sky color tweak settings
+
+option.CLOUD_BRIGHT_MULT               = Cloud Brightness
+option.ANTI_SKY_TINT_I                 = Cloud Sky-tint-negation
+option.NON_SKY_TINT_R                  = §c▍ Cloud Tint R
+option.NON_SKY_TINT_G                  = §a▍ Cloud Tint G
+option.NON_SKY_TINT_B                  = §9▍ Cloud Tint B
+option.SKY_POST_R                      = §c▍ Sky Tint R
+option.SKY_POST_G                      = §a▍ Sky Tint G
+option.SKY_POST_B                      = §9▍ Sky Tint B
+option.SKY_POST_I                      = §f▍ Sky Tint Intensity
 
 # Misc settings
 
