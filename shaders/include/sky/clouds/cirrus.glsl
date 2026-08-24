@@ -290,7 +290,7 @@ CloudsResult draw_cirrus_clouds(
     float mu = dot(sphere_pos, light_dir) * rcp_r;
 
     vec3 light_color
-        = sunlight_color * atmosphere_transmittance(sphere_pos, light_dir);
+        = sunlight_color * (atmosphere_transmittance(sphere_pos, light_dir) / mix(vec3(1.0,1.0,1.0), vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B) * NON_SKY_XTRA_TINT, ANTI_SKY_TINT_I)) * CLOUD_BRIGHT_MULT;
     light_color = atmosphere_post_processing(light_color);
     light_color *= moonlit ? moon_color : sun_color;
 
