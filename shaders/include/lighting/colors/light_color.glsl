@@ -61,7 +61,7 @@ vec3 get_moon_tint() {
 
 vec3 get_light_color() {
     vec3 light_color
-        = sunlight_color * (atmosphere_transmittance(light_dir.y, planet_radius) / mix(vec3(length(vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B))), vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B), TERRAIN_ANTI_SKY_TINT_I) * NON_SKY_XTRA_TINT);
+        = sunlight_color * (atmosphere_transmittance(light_dir.y, planet_radius) / mix(vec3(dot(vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B), luminance_weights_rec2020)), vec3(SKY_POST_R,SKY_POST_G,SKY_POST_B), TERRAIN_ANTI_SKY_TINT_I) * NON_SKY_XTRA_TINT);
     light_color = atmosphere_post_processing(light_color);
     light_color *= mix(
         get_sun_exposure() * get_sun_tint(),
