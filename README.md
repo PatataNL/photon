@@ -1,6 +1,7 @@
 <br><br>
 
-<h1 align = "center">Photon Shaders NOTE recommended settings are included in the zip</h1>
+<h1 align = "center">Photon Shaders/h1>
+<h2 align = "center">settings: https://discord.com/channels/1007736612488220724/1541539763599839332 /h2>
 
 <p align = "center">A gameplay-focused shader pack for Minecraft\nbut now with sky color tweaking\nsky ground is broken idk how fix</p>
 
