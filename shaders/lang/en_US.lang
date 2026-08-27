@@ -724,6 +724,7 @@ option.SKY_POST_R                      = §c▍ §fSky Tint R
 option.SKY_POST_G                      = §a▍ §fSky Tint G
 option.SKY_POST_B                      = §9▍ §fSky Tint B
 option.SKY_POST_I                      = ▍ Sky Tint Intensity
+option.ATMOSPHERE_BRIGHTNESS           = Dusk/Dawn Sky Brightness
 
 # Misc settings
 
