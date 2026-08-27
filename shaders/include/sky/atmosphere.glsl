@@ -25,7 +25,7 @@ const float moon_angular_radius = MOON_ANGULAR_RADIUS * degree;
 const ivec2 transmittance_res = ivec2(/* mu */ 256, /* r */ 64);
 const ivec3 scattering_res = ivec3(/* nu */ 16, /* mu */ 64, /* mu_s */ 32);
 
-const float min_mu_s = 1 - ATMOSPHERE_BRIGHTNESS;
+const float min_mu_s = 0 - ATMOSPHERE_BRIGHTNESS;
 
 // Atmosphere boundaries
 
