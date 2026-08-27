@@ -689,6 +689,4 @@ const float wetnessHalflife         = 70.0;
 
 #define NON_SKY_XTRA_TINT vec3(NON_SKY_TINT_R, NON_SKY_TINT_G, NON_SKY_TINT_B)
 
-#define ATMOSPHERE_BRIGHTNESS (0 - ATMOSPHERE_BRIGHTNESS)
-
 #endif // SETTINGS_INCLUDED
